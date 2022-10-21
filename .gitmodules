@@ -1,0 +1,12 @@
+[submodule "h5p-harmonic-functions"]
+	path = h5p-harmonic-functions
+	url = https://github.com/tarmoj/h5p-harmonic-functions.git
+[submodule "h5p-degree-dictations"]
+	path = h5p-degree-dictations
+	url = https://github.com/tarmoj/h5p-degree-dictations.git
+[submodule "h5p-musical-dictations"]
+	path = h5p-musical-dictations
+	url = https://github.com/tarmoj/h5p-musical-dictations.git
+[submodule "h5p-editor-degree-input"]
+	path = h5p-editor-degree-input
+	url = https://github.com/tarmoj/h5p-editor-degree-input.git
