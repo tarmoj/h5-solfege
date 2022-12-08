@@ -1,2 +1,4 @@
 *.h5p
 *.backup
+.idea/
+icon-material/
