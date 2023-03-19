@@ -59,6 +59,8 @@ To create a new translation, move to the folder of selected library and rum simi
 
 In case of h5p-editor-degree-input just copy the launguage/en.json to <your_laguage>.json and translate the strings.
 
+When the translation is done, upload your the translation files to your testing enivironment (like Drupal7), set the langugage there and test your translation.
+
 
 See https://h5p.org/h5p-cli-guide#createlanguagecmd and https://h5p.org/documentation/for-developers/translate-h5p-libraries for more info 
 
