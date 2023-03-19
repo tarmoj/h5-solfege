@@ -48,6 +48,23 @@ https://github.com/tarmoj/h5p-musical-dictations
 Have look to according README.md files to find out more about the libraries.
 
 <br>
+
+## Translating
+
+I suggest h5p tool (see below for creating the translations).
+
+To create a new translation, move to the folder of selected library and rum similar command to:
+
+    h5p create-language-file h5p-degree-dictations ru
+
+In case of h5p-editor-degree-input just copy the launguage/en.json to <your_laguage>.json and translate the strings.
+
+
+See https://h5p.org/h5p-cli-guide#createlanguagecmd and https://h5p.org/documentation/for-developers/translate-h5p-libraries for more info 
+
+
+<br>
+
 ## For Developers
 
 Anyone is free to extend, debug or improve these libraries. Here are some guidelines and hints about the development.
