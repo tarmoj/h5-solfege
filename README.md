@@ -53,7 +53,7 @@ Have look to according README.md files to find out more about the libraries.
 
 I suggest h5p tool (see below for creating the translations).
 
-To create a new translation, move to the folder of selected library and rum similar command to:
+To create a new translation, move to the folder of selected library, create subfolder _language_ (if not existing) and run similar command to:
 
     h5p create-language-file ./ et
 
