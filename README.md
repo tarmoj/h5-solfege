@@ -55,7 +55,7 @@ I suggest h5p tool (see below for creating the translations).
 
 To create a new translation, move to the folder of selected library and rum similar command to:
 
-    h5p create-language-file h5p-degree-dictations ru
+    h5p create-language-file ./ et
 
 In case of h5p-editor-degree-input just copy the launguage/en.json to <your_laguage>.json and translate the strings.
 
@@ -129,17 +129,14 @@ Building and deploying is similar to H5P.DegreeDictations.
 	// this section will be extended
 
 <br>
-### Translations, preparing h5p files
 
-If you make any changes to the `semantics.json` file you need to update the language files. For small changes doing it manually it is the easiest, if you need to (re)create a language file, run this command in the root directory of the library (example for Estonian language file):
+### Packaging, preparing h5p files
 
-	h5p create-language-file ./  et
 
-See more:  https://h5p.org/documentation/for-developers/translate-h5p-libraries
+To make the final h5p file, it is recommended to use the h5p tool, run from the root folder (h5p-solfege):
 
-To make the final h5p file, it is recommended to use the h5p tool, like:
-
-	h5p pack H5P.HarmonicFunctions HarmonicFunctions-<version>.h5p
+	h5p pack h5p-harmonic-functions HarmonicFunctions-<version>>.h5p
+    h5p pack h5p-degree-dictations h5p-editor-degree-input  DegreeDictations-x.y.z.h5p
 
 
 <br>
