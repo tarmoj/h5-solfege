@@ -119,14 +119,15 @@ The semantics file requires a special custom H5P editor widget for conveniently 
 
 It has to be placed next to H5P.Degreedictations to the development folder of Drupal 7. For making final h5p file, package it with running this command in the parent directory of the libraries:  
   
-	h5p pack H5P.DegreeDictations H5PEditor.DegreeInput  DegreeDictations.h5p  
+	h5p pack h5p-degree-dictations h5p-editor-degree-input  DegreeDictations.h5p  
 
 
-**H5P.MusicalDictations** is similar to H5P.DegreeDictations -  it uses **babel** and **nodejs** for developmnent, next to that it is based on **React**.  The React components are in folder src/scripts/components.
+**H5P.MusicalDictations** is similar to H5P.DegreeDictations -  it uses **babel** and **nodejs** for developmnent, next to that it is based on **React**. It uses Lilypond as its notation language + graphical UI, VexFlow for rendering notation.
+
+The library depends on these React components that are used both in editor and library: https://github.com/tarmoj/vexflow-react-components (pulled as submodule).
 
 Building and deploying is similar to H5P.DegreeDictations.
 
-	// this section will be extended
 
 <br>
 
@@ -136,7 +137,8 @@ Building and deploying is similar to H5P.DegreeDictations.
 To make the final h5p file, it is recommended to use the h5p tool, run from the root folder (h5p-solfege):
 
 	h5p pack h5p-harmonic-functions HarmonicFunctions-<version>>.h5p
-    h5p pack h5p-degree-dictations h5p-editor-degree-input  DegreeDictations-x.y.z.h5p
+    h5p pack h5p-degree-dictations h5p-editor-degree-input  DegreeDictations-<version>.h5p
+    h5p pack h5p-musical-dictations h5p-editor-notation-input  MusicalDictations-version.h5p
 
 
 <br>
