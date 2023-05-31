@@ -8,7 +8,7 @@ Creating Exercises with H5P-Solfege  Libraries
 
 The software is developed at Georg Ots Tallinna Music School, now Tallinn College of Music and Ballet for project "Digitaalse muusikateooria ja solfedžo õppevara täiustamine ja arendamine"   with the support of European Social Fund (Euroopa Sotsiaalfond).
 
-![](img/eu_small.jpg)
+![Euroopa Sotsiaalfond](img/eu_small.jpg)
 
 Since e-koolikott is meant mostly for Estonian schools, the instructions below will be only in Estonian. The libraries can be used in Estonian, English and Russian though, if the platform supports it.
 

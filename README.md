@@ -7,6 +7,8 @@ These H5P libraries have been created to be used in https://sisuloome.e-koolikot
 
 The software is developed at Georg Ots Tallinna Music School, now Tallinn College of Music and Ballet for project "Digitaalse muusikateooria ja solfedžo õppevara täiustamine ja arendamine"   with the support of European Social Fund (Euroopa Sotsiaalfond).
 
+<img src="./eu.jpg" alt="Euroopa Sotsiaalfond" width="250"/>
+
 
 The aim of these libraries is to provide H5P content types for creating new solfege (musical ear training)  exercises in following categories:
 
