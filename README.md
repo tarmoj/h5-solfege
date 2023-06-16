@@ -17,7 +17,13 @@ The aim of these libraries is to provide H5P content types for creating new solf
 - musical dictations, one voiced (in Estonian: ühehäälsed meloodilised diktaadid )
 
 
-Similar exercises, but limited in number,  are realized here: https://otsakool.edu.ee/digisolf
+See video instructions demonstrating exercises using these content types on e-koolikott (in Estonian):
+
+
+[Astmediktaatide loomine](https://www.youtube.com/watch?v=WWGh_v6EX9Q&ab_channel=MUBA) <br />
+[Diktaatide loomine](https://www.youtube.com/watch?v=SIb7oxUOw2c&ab_channel=MUBA)
+
+Similar exercises, but limited in number,  are realized on: https://otsakool.edu.ee/digisolf
 
 
 

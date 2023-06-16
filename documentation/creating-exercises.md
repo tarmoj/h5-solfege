@@ -16,6 +16,14 @@ Since e-koolikott is meant mostly for Estonian schools, the instructions below w
 
 ## Harjutuste loomine
 
+Nende teemade kohta on ka videotutvustused:
+
+[Astmediktaatide loomine](https://www.youtube.com/watch?v=WWGh_v6EX9Q&ab_channel=MUBA)
+
+[Diktaatide loomine](https://www.youtube.com/watch?v=SIb7oxUOw2c&ab_channel=MUBA)
+
+<br />
+
 ### Sisenemine e-koolikoti sisuloomesse
 
 
@@ -127,7 +135,7 @@ Materjali tüüp peaks olema "Harjutus või tööleht", lisada võib ka
 "Heli".
 
 
-**NB!!!** Võtmesõnade juurde **märkige kindlasti "digitaalne õppevara - nutikas õppimine"** (ESF nõue)! Lisada võiks ka võtmesõna "solfedžo"
+**NB!!!** Võtmesõnade juurde **märkige kindlasti "digitaalne õppevara - nutikas õppimine"** (ESF nõue)!Soovitav on lisada võtmesõna "solfedžo" ning harjutuse tüüp nt "diktaadid", "astmediktaadid", "harmoonilised funktsioonid", mille järgi on sama tüüpi harjutusi hiljem lihtsam leida.
 
 ![](img/e-koolikott-lihtsamini-leitavaks.png)
 
