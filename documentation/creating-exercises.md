@@ -57,7 +57,7 @@ Klõpsake valitud tüübile ning avaneb vorm, nn *H5P-Editor*, mille abil saate 
 
 <br>
 
-### Astmediktaadid
+### Astmediktaadid (Degree dictations)
 
 Kõigepealt tuleb sisestada harjutuse pealkiri. Nt "Astmeline liikumine, väiksed hüpped"
 
@@ -81,7 +81,7 @@ Kui kõik on valmis, vajutage "Salvesta". Seejärel saate harjutust üle vaadata
 Et õpilane saaks seda harjutust teha, tuleb see avaldada. Selleks on kõige mugavam võimalus vajutada nuppu "Avalda e-koolikotis". Vt peatükk "Avaldamine e-koolikotis" allpool.
 
 
-### Harmoonilised funktsioonid
+### Harmoonilised funktsioonid (Harmonic functions)
 
 Seda tüüpi harjutuse sisuks on, et süsteem esitab väikse helifaili ning kasutaja peab taktide kaupa kirja panema, milline harmooniline funktsioon -  toonika, subdominant, dominant või mediant  - seal on.
 
@@ -97,6 +97,109 @@ Ka selle sisutüübi juures võib sisestada ühes harjutuses mitu erinevat funkt
 ![](img/e-koolikott-harmoonilised-funktsioonid.png)
 
 Kui kõik on valmis, vajutage "Salvesta". Seejärel saate harjutust üle vaadata, läbi teha ning vajadusel sisse viia vajalikud muudatused/täiendused. (Nupp ülal -  "Muuda"). 
+
+Et õpilane saaks seda harjutust teha, tuleb see avaldada. Selleks kõige mugavam võimalus on nupp "Avalda e-koolikotis".
+
+<br>
+
+### Meloodilised (muusikalised) diktaadid (Musical dictations)
+
+Siin on mõeldud nö tavalisi diktaate, kus kasutaja peab kirja panema kuuldud meloodia. Harjutustes aluseks on helifail ning kasutaja peab kirja panema kuuldud meloodia, süsteem kontrollib tulemust ja näitab vigu.
+
+Soovi korral vaadake ka [videotutvustust](https://www.youtube.com/watch?v=SIb7oxUOw2c&ab_channel=MUBA).
+
+Harjutuse koostaja peab kõigepealt valima ja ettevalmistama vastava helifaili - kas ise salvestama või valima katkendi olemasolevast muusikast.
+
+E-koolikoti sisuloomes valige sisutüübiks **Musical Dictations**.
+
+Sisetage harjutuse pealkiri, laadige üles helifail ning sisestage korrektne notatsioon. Selleks on kolm võimalust: 1) kasutada klaveriklahvistiku sarnast vidinat ning kontrollnuppe 2) kasutada vastavaid klahvikombinatsioone 3) sisestada notatsioon tekstiliselt Lilypond formaadis. Neist kolmest lähemalt allpool.  Alustades näeb ekraanipilt välja nii:
+
+![](img/musical-dictations.png)
+
+#### Notatsiooni sisestamine
+
+Valige menüüst sobiv võti (valikus viiuli- ja bassivõti), helistik ning taktimõõt. Neid võib deklareerida ka otse, Lilypond notatsiooni väljas.
+
+1. Klahviatuur ja kontrollnupud
+
+Valige esmalt noodi vältus, seejärel vajutage sobivale klaveriklaviatuuri klahvile. Pausi sisestamiseks klõpsake klahvi asemel pausi nupule. Kui vältus on punktiga, saate selle lisada punkti nupu abil peale noodi sisestamist (nupp kehtib viimasele või hetkel valitud noodile).
+
+Takte saate lisada takti lisamise nupu abil, süsteem ise taktimõõtu ja taktide täitumist ei kontrolli. 
+
+Kui soovite nooti muuta, klõpsake sellele ning sisestage uus kõrgus või vältus.  Kui soovite noote lisada takti keskele, klõpsake alale kahe noodi vahel. Notatsioonikursor muutub lisamisrežiimis heleroheliseks. Kustutamisnupu abil saate kustutada viimase noodi, "Eemalda takt" nupu abil kogu takti.
+
+2. Klahvikombinatsioonid (_shortcuts_)
+
+Väikese vilumuse korral on notatsiooni sisestamine kiirem klahvikombinatsioonide abil. Võite kasutada järgmisi klahvikombinatsioone, et sisestada või muuta noote:
+
+_NB! Et klahvikombinatsioonid aktiveerida, klõpsake esmalt noodijoonestikule_!
+
+- Noodid: klahvid c, d, e, f, g, a, b, h. Suurtähed (C, D, jne) annavad 2. oktavi, ctrl + noodinimi väikse oktavi.
+- Noot üles/alla, et lisada nt diees või bemoll (enharmoonilised vasted k.a.): nool üles või alla
+- Vältused: 1 - täisnoot, 2 - poolnoot, 4 - veerandnoot, 8 - kaheksandik, 6 - kuueteistkümnendik
+- Paus: r
+- Punkt (lisa või eemalda): .
+- Pide (lisa või eemalda): t
+- Liikumine: nool paremale/vasakule liigub järgmise/eelmise noodi peale, ctrl+nool järmisesse/eelmisesse takti.
+
+Klõpsa nootide vahele, et lisada noote takti keskel.
+
+3. Tekstiline sisestus (Lilypond)
+
+Diktaade notatsioon salvestatakse harjutuste juures alati teksti kujul, Lilypond formaadis. See on oluline, et võimalda ka vaegnägijatele diktaatide sisestamist ja kontrollimist.
+
+Tekstiliseks sisestuseks on siin kasutusel levinud notatsiooni keel Lilypond (mis on ühtlasi väga võimalusterohke ja kaunis notatsiooniprogramm)  https://lilypond.org/. Muusikat õppinud inimesele peaks siin kasutatavad Lilypondi võimalused olema kergelt mõistetavad. Näiteks:
+
+    \clef treble \key d \major  \time 4/4
+
+määrab võtmeks viiulivõtme, helistikuks D duuri ning taktimõõduks 4/4
+
+    \clef bass \key fis \minor  \time 6/8 
+
+aga bassivõtme, fis molli, taktimõõdu 6/8.
+
+**Noodinimedena** on siinkohal kasutusel nö saksa süsteem: _c, cis, des, d_ jne, _b, h, c_ (so mitte _bes, b_). 
+
+**Pausi** korral on noodinime asemel **r** (_rest_)
+
+Noot deklareeritakse kujul: noodinimi oktav [vältus] [punkt] [pide]. Osiste vahel ei tohi olla tühikut, nootide vahel peab olema tühik. 
+
+**Oktavi** märk noodinime järel: 
+- esimene oktav - ' (ülakoma) 
+- teine oktav - '' (kaks ülakoma)
+- kolmas oktav - ''' (kolm ülakoma)
+- väike oktav -  mitte midagi, ainult noodi nimi
+- suur oktav -  , (koma)
+- kontraoktav -  ,, (kaks koma) 
+
+**Vältus** sisestatakse numbrina - 1 -  täisnoot, 2 - poolnoot, 4 -  veerand, 8 -  kaheksandik, 16 -  kuueteistkümnendik. Kui vältus on punktiga, siis sinna järele . (punkt). Nt _c'4. d'8_  Kui vältus ei muutu, siis seda välja kirjutada ei ole vaja.
+
+**Pide** närk on ~ (tilde). See lisatakse pide esimese noodi järele. 
+
+**Taktijoon** on | (püstkriips). Lõpujoone sisestab süsteem ise.
+
+Näiteks: "Rongisõit" B duuris (väikeste muudatustega, et lisada pide ja punkt ja paus):
+
+``` 
+\clef treble \key b \major  \time 2/4
+b8 c' d' es' | f' f' f'4 |
+r8 c' d' es'~ | es' f' f'4 |
+es'8 es' es' es' | r d' d'4 |
+c'4. c'8 | b16 b b b b4 
+```
+
+Kui olete Lilypond notatsiooni sisestanud, vajutage nuppu "Kuva" või Ctrl+Enter (Cmd+Enter) ning saate vaadata notatsiooni graafiliselt.  Kui olete teinud mõne vea, kuvatakse veateade.
+
+#### Kuvatav algus    
+
+Sisestage Lilypond notatsioonis, mida peaks kasutaja diktaadi alguses nägema. Tüüpiline on võti, helistik, taktimõõt, esimene noot. Et vältida vigu, kopeerige see ülalt Notatsioon väljast. Toodud "Rongisõidu" näite puhul näiteks:
+
+```  
+\clef treble \key b \major  \time 2/4
+b8
+``` 
+
+Kui kõik on valmis, vajutage "Salvesta". Seejärel saate harjutust üle vaadata, läbi teha ning vajadusel sisse viia vajalikud muudatused/täiendused. (Nupp ülal -  "Muuda").
 
 Et õpilane saaks seda harjutust teha, tuleb see avaldada. Selleks kõige mugavam võimalus on nupp "Avalda e-koolikotis".
 
